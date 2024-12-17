@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Связаться с нами</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <h1>📧 Связаться с нами</h1>
+        <a href="index.html" class="back-link">⬅ Вернуться на главную</a>
+    </header>
+
+    <!-- Основной блок -->
+    <main>
+        <section class="description">
+            <h2>Напишите нам ваше предложение</h2>
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain" class="contact-form">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+
+                <label for="email">Ваш Email:</label>
+                <input type="email" id="email" name="email" placeholder="Введите ваш Email" required>
+
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Введите ваше сообщение" required></textarea>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Подвал -->
+    <footer>
+        <p>&copy; 2024 ScanToTextBot. Все права защищены.</p>
+    </footer>
+</body>
+</html>
